@@ -1,4 +1,4 @@
-package es.unirioja.mata.roomwordssample;
+package es.unirioja.mata.roomwordwithupdate;
 
 import org.junit.Test;
 

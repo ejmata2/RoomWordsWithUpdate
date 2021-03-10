@@ -1,4 +1,4 @@
-package es.unirioja.mata.roomwordssample;
+package es.unirioja.mata.roomwordwithupdate;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -46,6 +46,10 @@ public class WordListAdapter extends RecyclerView.Adapter<WordListAdapter.WordVi
         if (mWords != null)
             return mWords.size();
         else return 0;
+    }
+
+    public Word getWordAtPosition (int position) {
+        return mWords.get(position);
     }
 
     class WordViewHolder extends RecyclerView.ViewHolder {

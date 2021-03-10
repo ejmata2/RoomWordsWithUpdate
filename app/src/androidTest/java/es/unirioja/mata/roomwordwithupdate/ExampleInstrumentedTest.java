@@ -1,4 +1,4 @@
-package es.unirioja.mata.roomwordssample;
+package es.unirioja.mata.roomwordwithupdate;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("es.unirioja.mata.roomwordssample", appContext.getPackageName());
+        assertEquals("es.unirioja.mata.roomwordwithupdate", appContext.getPackageName());
     }
 }
